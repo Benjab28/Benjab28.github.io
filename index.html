@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+    <link rel="stylesheet" href="./style.css">
+    <img src="./APLogo.png" alt="Imagen de AP" id="imagen-AP">
+    <link rel="icon" type="image/x-icon" href="./Favicon.png">
+    <link rel="stylesheet" href="./fontall.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    
+
+    <title>Proyecto Final</title>
+</head>
+<body>
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+    
+    <p id="barra-colores-1"></p>
+    
+    <div class="Datos">
+
+        <img src="./Imagen CV.jpeg" alt="Imagen de CV" id="imagen-CV">
+
+    <h2><i class="fa-solid fa-circle-user"></i> Datos Personales</h2>
+    <ul>
+        <li>Nombre y Apellido: Pedro Sebastián Benjamín</l1>
+        <li>Fecha de Nacimiento: 28-04-1993</li>
+        <l1>Edad: 29 años</l1>
+        <li>Nacionalidad: Argentino</li>
+        <li>Sexo: Masculino</li>
+        <li>Estado civil: Soltero</li>
+        <li>Residencia: San Carlos de Bariloche, Río Negro, Argentina</li>
+        <li>Domicilio: Juan José Paso 136, Barrio Belgrano</li>
+        <li>Redes Sociales:</li>
+        <h4><a href="http://instagram.com/benjap28" target="blank">Instagram</a></h4>
+        <h4><a href="https://twitter.com/Benjap28" target="blank">Twitter</a></h4>
+    </ul>
+    <h2><i class="fa-solid fa-laptop-code"></i> Nivel de Inglés</h2>
+    
+    <div class="Nivel de Inglés">
+
+        <div class="circular-progress">
+            <div class="outer">
+                <div class="inner">
+                    <div id="number"><h3 id="idioma">Inglés</h3>70%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-2">
+                        <stop offset="0%" stop-color="#F72D6A"/>
+                        <stop offset="100%" stop-color="#BC2DF7"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+    </div>
+
+        
+    <h2><i class="fa-solid fa-palette"></i>Habilidades</h2>
+    <ul>
+        <li>Organización</li>
+        <li>Trabajo en Equipo</li>
+        <li>Creatividad</li>
+        <li>Atento</li>
+    </ul>
+
+    <h2><i class="fa-solid fa-graduation-cap"></i> Formación Academica</h2> 
+    <ul>
+        <li>Escuela primaria Nº 33 - Cipolletti, Calle Roca - COMPLETO</li>
+        <li>Escuela secundaria del CEM N°12 - COMPLETO</li>
+        <li>Actualmente cursando la carrera de Ingeniería Electrónica, Universidad Nacional de Rio Negro</li>
+        <li>Cursando Introduccion Desarrollo Front End. 2023</li>
+    </ul>
+    
+    <p id="barra-colores-3"></p>
+
+    <h2><i class="fa-solid fa-briefcase"></i> Referencia Laboral</h2>
+    <ol>
+        <li>
+            <h3>Hotel Selina - Coordinación general Gimnasio</h3>
+            <h4>Pioneros 200.2019 - 2023 - Actualidad</h4>
+            <ul>
+                <li>Organizador de eventos</li>
+                <li>Encargado de compras</li>
+                <li>Control de elementos y mercaderia</li>
+                <li>Encargado de personal</li>
+                <li>Reporte de fallas</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Hotel Villa Sofia - Recepción</h3>
+            <h4>Pioneros 200. 2017 - 2019</h4>
+            <ul>
+                <li>Atención al publico</li>
+                <li>Venta de excursiones</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Hotel Puerto Pireo - Ayudante de cocina</h3>
+            <h4>Av. Ezequiel Bustillo Km 17.000. 2015</h4>
+            <ul>
+                <li>Atención al público</li>
+                <li>Mozo</li>
+            </ul>
+        </li>
+    </ol>
+
+</div>
+
+</body>
+<footer>
+    <p id="barra-colores-2"></p>
+  
+    <button id="Contacto" onclick="MostrarTelefono()">Contactar</button>  
+    <p id="telefono"></p>
+
+    <script>
+         function MostrarTelefono(){
+            document.getElementById("telefono").innerHTML = "294-154160954 // benja.pedro28@gmail.com";
+         }
+    </script>
+
+</footer>
+
+</html>
